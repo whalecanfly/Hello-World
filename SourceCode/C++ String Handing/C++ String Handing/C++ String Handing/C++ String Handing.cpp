@@ -18,7 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
     // from != on char pointers to C strings, where != would compare the memory
     // addresses of the strings rather than their contents.
     if (foo != bar) {
-        std::cout << "The strings are different." << std::endl;
+		 std::cout << "The strings are different." << std::endl;
     }
 
     // Prints "stool fighters". The + operator denotes string concatenation.
